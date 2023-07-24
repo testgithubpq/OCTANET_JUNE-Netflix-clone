@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@1,100&display=swap'); 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif ;
+ 
+  &::-webkit-scrollbar{
+     display: none;
+  }
+}  
+a,h2{
+     color: white;
+}
+
+$bg: rgb(30,30,30);
+
+.header{
+       height:7vmax;
+       background-color:$bg; 
+       display: flex;
+       align-items: center;
+       padding: 2.4vmax;
+       box-sizing: border-box;
+       justify-content: space-between;
+       >img{
+            height: 16vmax;
+       }
+>svg{
+     color: white;
+     font-size: 2.7vmax;
+     cursor: pointer;
+
+     &:hover{
+      color: rgb(255, 180, 180);
+     }
+}
+div{
+     width: 100%;
+     margin: 2vmax;
+     >a{
+      margin: 2vmax;
+      font-size: 1.6vmax;
+      font-weight: 300;
+    }
+}
+
+}
+a{
+  text-decoration: none;
+}
